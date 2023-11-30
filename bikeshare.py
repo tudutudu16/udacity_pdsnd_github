@@ -68,7 +68,6 @@ def get_filters():
     while True:
             day = str(input('input name of the day of week for filter by day, or can input "all" for no day need filter : ')).lower();
 
-
             if day == 'monday':
                 day = days[0]
                 break;
