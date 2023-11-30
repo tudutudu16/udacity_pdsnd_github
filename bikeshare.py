@@ -41,21 +41,27 @@ def get_filters():
     while True:
          month = str(input('Please enter any one of the first 6 months or enter All to select all 6 months : ')).lower();
 
+         # january
          if month == 'january':
             month = months[0]
             break;
+         # february
          elif month == 'february':
             month = months[1]
             break;
+         # march
          elif month == 'march':
             month = months[2]
             break;
+         # april
          elif month == 'april':
             month = months[3]
             break;
+         # may
          elif month =='may':
             month = months[4]
             break;
+         # june
          elif month == 'june':
             month = months[5]
             break;
